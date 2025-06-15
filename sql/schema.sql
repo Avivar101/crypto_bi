@@ -2,7 +2,8 @@
 CREATE TABLE coin_metadata (
     id TEXT PRIMARY KEY,
     symbol TEXT,
-    name TEXT
+    name TEXT,
+    image_url TEXT
 );
 
 -- Raw prices fetched from API
