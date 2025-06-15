@@ -1,0 +1,311 @@
+Script ran at 2025-06-14 22:09:35.898467
+'C:\Users\user\Documents\Power' is not recognized as an internal or external command,
+operable program or batch file.
+Price fetched successfully
+Price fetched successfully
+Loaded to db successfully
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 92, in <module>
+    with open("C:/Users/user/Documents/Power BI Desktop/Projects/Crypto BI/logs/etl_log.txt", "a") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/user/Documents/Power BI Desktop/Projects/Crypto BI/logs/etl_log.txt'
+Script ran at 2025-06-14 23:00:12.373889
+
+Script ran at 2025-06-14 23:15:40.291197
+
+Script ran at 2025-06-15 00:04:29.080445
+
+Script ran at 2025-06-15 00:15:07.212083
+
+Script ran at 2025-06-15 00:19:27.100653
+
+Script ran at 2025-06-15 00:30:07.052629
+
+Script ran at 2025-06-15 00:34:27.484852
+
+Script ran at 2025-06-15 00:49:27.044141
+
+Script ran at 2025-06-15 06:21:27.524553
+
+Script ran at 2025-06-15 06:34:29.295641
+
+Script ran at 2025-06-15 06:49:31.414763
+
+Script ran at 2025-06-15 07:04:38.381376
+
+Script ran at 2025-06-15 07:19:48.577172
+
+Script ran at 2025-06-15 07:34:40.911506
+
+Script ran at 2025-06-15 07:49:31.014582
+
+Script ran at 2025-06-15 08:04:34.299461
+
+Script ran at 2025-06-15 08:19:31.470001
+
+Script ran at 2025-06-15 08:34:32.272952
+
+Script ran at 2025-06-15 08:49:30.445923
+
+Script ran at 2025-06-15 09:04:29.866906
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.coingecko.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 85, in <module>
+    usd_raw = fetch_prices('usd')
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 16, in fetch_prices
+    response = requests.get(url, params=params)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.coingecko.com', port=443): Read timed out. (read timeout=None)
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.coingecko.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 85, in <module>
+    usd_raw = fetch_prices('usd')
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 16, in fetch_prices
+    response = requests.get(url, params=params)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\.venv\Lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.coingecko.com', port=443): Read timed out. (read timeout=None)
+Script ran at 2025-06-15 09:49:32.265585
+
+Script ran at 2025-06-15 10:04:28.648045
+
+Script ran at 2025-06-15 10:19:30.886497
+
+Script ran at 2025-06-15 10:34:28.634889
+
+Script ran at 2025-06-15 10:49:35.895581
+
+Script ran at 2025-06-15 11:04:28.532811
+
+Script ran at 2025-06-15 11:19:31.961952
+
+Script ran at 2025-06-15 11:34:28.271922
+
+Script ran at 2025-06-15 11:49:33.988342
+
+Script ran at 2025-06-15 12:04:30.590997
+
+Script ran at 2025-06-15 12:19:30.593159
+
+Script ran at 2025-06-15 12:34:29.844421
+
+Script ran at 2025-06-15 12:49:30.914056
+
+Script ran at 2025-06-15 13:04:31.395072
+
+Script ran at 2025-06-15 13:24:50.506451
+
+Script ran at 2025-06-15 13:34:31.523033
+
+Script ran at 2025-06-15 13:49:31.980940
+
+Script ran at 2025-06-15 14:04:36.341296
+
+Script ran at 2025-06-15 14:19:31.648478
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 89, in <module>
+    transformed = transform_data(usd_raw, ngn_raw)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 36, in transform_data
+    'image_url': coin.get('image', {}).get('thumb'),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+Script ran at 2025-06-15 14:50:10.155928
+
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 111, in <module>
+    load_to_postgres(transformed)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\Crypto BI\data_ingestion\etl.py", line 64, in load_to_postgres
+    cur.execute("""
+    ~~~~~~~~~~~^^^^
+                INSERT INTO coin_metadata (id, symbol, name, image_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                VALUES (%s, %s, %s, %s)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+                ON CONFLICT (id) DO UPDATE SET
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                """, (row['id'], row['symbol'], row['name'], row['image_url']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: syntax error at end of input
+LINE 5:                         
+                                ^
+
+Script ran at 2025-06-15 15:19:49.112401
+
