@@ -1,3 +1,4 @@
+import sys
 import requests
 import psycopg2
 from psycopg2.extras import execute_batch
@@ -19,6 +20,7 @@ def fetch_prices(currency):
         return response.json()
     except requests.exceptions.RequestException as e:
         print("Error: Failed to fetch prices from API")
+        sys.exit(1) 
 
 # transform data
 def transform_data(raw_data_usd, raw_data_ngn):

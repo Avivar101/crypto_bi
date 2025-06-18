@@ -329,3 +329,182 @@ Script ran at 2025-06-15 22:00:22.863896
 
 Script ran at 2025-06-15 22:15:36.997298
 
+Script ran at 2025-06-15 22:30:21.965874
+
+Script ran at 2025-06-15 22:48:08.657617
+
+Script ran at 2025-06-15 23:00:34.514003
+
+Error: Failed to fetch prices from API
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\crypto_bi\data_ingestion\etl.py", line 89, in <module>
+    transformed = transform_data(usd_raw, ngn_raw)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\crypto_bi\data_ingestion\etl.py", line 28, in transform_data
+    for coin in raw_data_usd:
+                ^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+Script ran at 2025-06-15 23:31:29.007832
+
+Script ran at 2025-06-15 23:46:16.115691
+
+Script ran at 2025-06-16 00:12:51.097590
+
+Script ran at 2025-06-16 00:15:05.968865
+
+Script ran at 2025-06-16 00:30:43.633465
+
+Script ran at 2025-06-16 00:47:00.841712
+
+Script ran at 2025-06-16 01:00:23.575581
+
+Script ran at 2025-06-16 01:15:29.523783
+
+Script ran at 2025-06-16 01:30:05.777501
+
+Script ran at 2025-06-16 01:45:06.003972
+
+Script ran at 2025-06-16 02:00:05.285075
+
+Script ran at 2025-06-16 02:15:16.682983
+
+Script ran at 2025-06-16 02:30:06.534859
+
+Script ran at 2025-06-16 06:51:58.021232
+
+Script ran at 2025-06-16 07:00:15.600349
+
+Script ran at 2025-06-16 07:15:16.256541
+
+Script ran at 2025-06-16 07:46:56.419116
+
+Script ran at 2025-06-16 08:00:50.039692
+
+Script ran at 2025-06-16 08:15:25.890409
+
+Script ran at 2025-06-16 09:02:14.819458
+
+Script ran at 2025-06-16 09:15:58.839481
+
+Script ran at 2025-06-16 09:31:20.597662
+
+Script ran at 2025-06-16 09:45:23.078861
+
+Script ran at 2025-06-16 10:00:34.875571
+
+Script ran at 2025-06-16 10:15:35.350767
+
+Script ran at 2025-06-16 10:30:24.811589
+
+Script ran at 2025-06-16 10:45:21.459613
+
+Script ran at 2025-06-16 11:00:24.551763
+
+Script ran at 2025-06-16 11:15:36.514934
+
+Script ran at 2025-06-16 11:30:22.379136
+
+Script ran at 2025-06-16 11:45:19.052455
+
+Script ran at 2025-06-16 12:00:47.417232
+
+Script ran at 2025-06-16 12:15:34.284896
+
+Script ran at 2025-06-16 13:05:08.588660
+
+Script ran at 2025-06-16 13:16:13.819238
+
+Script ran at 2025-06-16 13:30:31.280591
+
+Script ran at 2025-06-16 13:45:18.273703
+
+Script ran at 2025-06-16 14:00:56.598607
+
+Script ran at 2025-06-16 14:15:19.750495
+
+Script ran at 2025-06-16 14:30:33.969535
+
+Script ran at 2025-06-16 15:28:58.772473
+
+Script ran at 2025-06-16 15:30:17.489240
+
+Script ran at 2025-06-16 15:45:29.777557
+
+Script ran at 2025-06-16 16:00:37.899527
+
+Script ran at 2025-06-16 16:15:18.452370
+
+Script ran at 2025-06-16 16:38:46.819730
+
+Script ran at 2025-06-16 16:45:35.492517
+
+Script ran at 2025-06-16 17:00:23.719966
+
+Script ran at 2025-06-16 17:15:16.705206
+
+Script ran at 2025-06-16 17:31:48.657579
+
+Script ran at 2025-06-16 17:45:07.145747
+
+Script ran at 2025-06-16 18:00:06.955256
+
+Script ran at 2025-06-16 19:10:17.975505
+
+Script ran at 2025-06-16 19:24:01.447379
+
+Script ran at 2025-06-16 19:30:15.818593
+
+Script ran at 2025-06-16 19:45:31.542988
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\crypto_bi\data_ingestion\etl.py", line 89, in <module>
+    transformed = transform_data(usd_raw, ngn_raw)
+  File "C:\Users\user\Documents\Power BI Desktop\Projects\crypto_bi\data_ingestion\etl.py", line 25, in transform_data
+    ngn_map = {coin['id']: coin for coin in raw_data_ngn}
+                                            ^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+'Script ran at 2025-06-16 22:00:25.301634
+
+Script ran at 2025-06-16 22:02:47.433902
+
+Script ran at 2025-06-16 22:15:33.547366
+
+Script ran at 2025-06-16 22:17:33.238126
+
+Script ran at 2025-06-16 22:30:23.908088
+
+Script ran at 2025-06-16 22:38:28.747638
+
+Script ran at 2025-06-16 22:45:34.004999
+
+Script ran at 2025-06-16 22:48:39.309418
+
+Script ran at 2025-06-16 23:02:59.777301
+
+Script ran at 2025-06-16 23:16:09.488240
+
+Script ran at 2025-06-16 23:21:37.453204
+
+Script ran at 2025-06-17 05:37:35.661001
+
+Script ran at 2025-06-17 05:46:29.178413
+
+Script ran at 2025-06-17 05:49:17.120547
+
+Script ran at 2025-06-17 06:00:38.415659
+
+Script ran at 2025-06-17 06:02:33.973409
+
+Script ran at 2025-06-17 06:15:22.655602
+
+Script ran at 2025-06-17 06:17:32.706162
+
+Script ran at 2025-06-17 06:30:42.067036
+
+Script ran at 2025-06-17 06:32:42.240121
+
+Script ran at 2025-06-17 06:45:54.580058
+
+Script ran at 2025-06-17 06:48:08.084609
+
