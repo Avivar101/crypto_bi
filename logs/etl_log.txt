@@ -508,3 +508,526 @@ Script ran at 2025-06-17 06:45:54.580058
 
 Script ran at 2025-06-17 06:48:08.084609
 
+Script ran at 2025-06-18 10:30:08.008294
+
+Script ran at 2025-06-18 10:33:00.857690
+
+Script ran at 2025-06-18 10:37:16.464073
+
+Script ran at 2025-06-18 10:45:06.053278
+
+Script ran at 2025-06-18 10:47:15.806579
+
+Script ran at 2025-06-18 10:52:15.563332
+
+Script ran at 2025-06-18 11:00:12.790863
+
+Script ran at 2025-06-18 11:02:17.736159
+
+Script ran at 2025-06-18 11:07:11.734432
+
+Script ran at 2025-06-18 11:45:17.987121
+
+Script ran at 2025-06-18 11:52:20.092654
+
+Script ran at 2025-06-18 12:00:14.386833
+
+Script ran at 2025-06-18 12:02:19.851953
+
+Script ran at 2025-06-18 12:07:19.927385
+
+Script ran at 2025-06-18 12:15:16.652591
+
+Script ran at 2025-06-18 12:17:19.881297
+
+Script ran at 2025-06-18 12:22:14.693411
+
+Script ran at 2025-06-18 12:30:13.478224
+
+Script ran at 2025-06-18 12:32:19.953445
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-18 14:22:13.323556
+
+Script ran at 2025-06-18 14:30:12.805810
+
+Script ran at 2025-06-18 14:32:56.661285
+
+Script ran at 2025-06-18 14:37:27.563652
+
+Script ran at 2025-06-18 14:46:15.911276
+
+Script ran at 2025-06-18 14:47:18.570705
+
+Script ran at 2025-06-18 14:52:27.072000
+
+Script ran at 2025-06-18 15:00:05.930954
+
+Script ran at 2025-06-18 15:02:15.444677
+
+Script ran at 2025-06-18 15:10:39.268277
+
+Script ran at 2025-06-18 15:15:09.478929
+
+Script ran at 2025-06-18 15:17:16.845339
+
+Script ran at 2025-06-18 15:22:13.593296
+
+Script ran at 2025-06-18 15:30:47.862708
+
+Error: Failed to fetch prices from API
+Script ran at 2025-06-18 15:37:13.049477
+
+Script ran at 2025-06-18 15:45:08.964586
+
+Script ran at 2025-06-18 15:47:18.725480
+
+Script ran at 2025-06-18 15:54:52.012131
+
+Script ran at 2025-06-18 16:00:08.485198
+
+Script ran at 2025-06-18 16:02:20.987558
+
+Script ran at 2025-06-18 16:07:14.526522
+
+Script ran at 2025-06-18 16:15:38.660868
+
+Script ran at 2025-06-18 16:17:19.241084
+
+Script ran at 2025-06-18 16:22:11.164151
+
+Script ran at 2025-06-18 16:30:08.417594
+
+Script ran at 2025-06-18 16:32:17.428129
+
+Script ran at 2025-06-18 16:37:15.558738
+
+Script ran at 2025-06-18 16:45:07.258893
+
+Script ran at 2025-06-18 16:47:15.998648
+
+Script ran at 2025-06-18 16:52:10.916605
+
+Script ran at 2025-06-18 17:42:43.328872
+
+Script ran at 2025-06-18 17:45:12.255432
+
+Script ran at 2025-06-18 17:47:16.230254
+
+Script ran at 2025-06-18 17:53:19.224395
+
+Script ran at 2025-06-18 18:00:16.609518
+
+Script ran at 2025-06-18 18:02:31.203034
+
+Script ran at 2025-06-18 18:07:16.606339
+
+Script ran at 2025-06-18 18:15:16.322776
+
+Script ran at 2025-06-18 18:17:18.097467
+
+Script ran at 2025-06-18 18:22:12.097989
+
+Script ran at 2025-06-18 18:30:17.354733
+
+Script ran at 2025-06-18 18:32:23.605211
+
+Script ran at 2025-06-18 18:37:18.729613
+
+Script ran at 2025-06-18 18:45:22.573930
+
+Script ran at 2025-06-18 18:47:17.212886
+
+Script ran at 2025-06-18 20:56:14.297841
+
+Script ran at 2025-06-18 21:00:07.072117
+
+Script ran at 2025-06-18 21:02:15.627273
+
+Script ran at 2025-06-18 21:07:12.793465
+
+Script ran at 2025-06-18 21:09:27.188516
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-18 21:45:41.191182
+
+Script ran at 2025-06-18 21:47:39.011279
+
+Script ran at 2025-06-18 21:52:13.287944
+
+Script ran at 2025-06-18 21:54:14.017085
+
+Script ran at 2025-06-18 22:00:07.838247
+
+Script ran at 2025-06-18 22:02:15.442619
+
+Script ran at 2025-06-18 22:07:10.523843
+
+Script ran at 2025-06-18 22:09:10.874735
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 07:27:33.214415
+
+Script ran at 2025-06-19 07:30:26.424928
+
+Script ran at 2025-06-19 07:34:32.582002
+
+Script ran at 2025-06-19 07:40:30.551849
+
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 09:14:53.431531
+
+Script ran at 2025-06-19 09:15:22.666921
+
+Script ran at 2025-06-19 09:17:18.064930
+
+Script ran at 2025-06-19 09:22:23.259941
+
+Script ran at 2025-06-19 09:24:14.126344
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 10:17:17.954042
+
+Script ran at 2025-06-19 10:22:12.988688
+
+Script ran at 2025-06-19 10:24:15.079251
+
+Script ran at 2025-06-19 10:30:08.582555
+
+Script ran at 2025-06-19 10:32:15.517756
+
+Script ran at 2025-06-19 10:37:11.591077
+
+Script ran at 2025-06-19 10:39:13.358623
+
+Script ran at 2025-06-19 10:45:22.338610
+
+Script ran at 2025-06-19 10:47:18.048778
+
+Script ran at 2025-06-19 10:52:34.258762
+
+Script ran at 2025-06-19 10:54:17.281854
+
+Script ran at 2025-06-19 11:00:09.500697
+
+Script ran at 2025-06-19 11:02:15.590168
+
+Script ran at 2025-06-19 11:07:10.054190
+
+Script ran at 2025-06-19 11:09:10.294102
+
+Script ran at 2025-06-19 11:15:07.144463
+
+Script ran at 2025-06-19 11:17:16.746345
+
+Script ran at 2025-06-19 11:46:52.367033
+
+Script ran at 2025-06-19 11:47:16.590875
+
+Script ran at 2025-06-19 11:52:42.033939
+
+Script ran at 2025-06-19 11:54:15.350813
+
+Script ran at 2025-06-19 12:05:03.842533
+
+Script ran at 2025-06-19 12:07:14.348418
+
+Script ran at 2025-06-19 12:09:13.889639
+
+Script ran at 2025-06-19 12:15:07.207031
+
+Script ran at 2025-06-19 12:17:18.260553
+
+Script ran at 2025-06-19 12:22:11.102811
+
+Script ran at 2025-06-19 12:24:12.137597
+
+Script ran at 2025-06-19 12:30:09.201131
+
+Script ran at 2025-06-19 12:32:16.177652
+
+Script ran at 2025-06-19 12:37:24.598985
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 12:47:42.209216
+
+Script ran at 2025-06-19 12:52:12.025510
+
+Script ran at 2025-06-19 12:54:13.878461
+
+Script ran at 2025-06-19 13:00:16.729265
+
+Script ran at 2025-06-19 13:02:31.152037
+
+Script ran at 2025-06-19 13:07:12.555851
+
+Script ran at 2025-06-19 13:09:11.438028
+
+Script ran at 2025-06-19 13:15:07.250833
+
+Script ran at 2025-06-19 13:17:15.724583
+
+Script ran at 2025-06-19 13:22:17.721947
+
+Script ran at 2025-06-19 13:24:34.788116
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 15:01:12.094709
+
+Script ran at 2025-06-19 15:02:23.359308
+
+Script ran at 2025-06-19 15:07:11.902865
+
+Script ran at 2025-06-19 15:09:12.253481
+
+Script ran at 2025-06-19 15:15:22.115953
+
+Script ran at 2025-06-19 15:17:37.806936
+
+Script ran at 2025-06-19 15:22:48.317741
+
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 15:31:28.383630
+
+Script ran at 2025-06-19 15:32:27.748452
+
+Script ran at 2025-06-19 15:37:20.198004
+
+Script ran at 2025-06-19 15:39:22.162905
+
+Script ran at 2025-06-19 15:45:14.493833
+
+Script ran at 2025-06-19 15:47:28.111584
+
+Script ran at 2025-06-19 15:52:25.121905
+
+Script ran at 2025-06-19 15:54:40.485339
+
+Script ran at 2025-06-19 16:00:15.978790
+
+Script ran at 2025-06-19 16:02:27.196218
+
+Script ran at 2025-06-19 17:13:47.476029
+
+Script ran at 2025-06-19 17:15:26.901093
+
+Script ran at 2025-06-19 17:17:27.203097
+
+Script ran at 2025-06-19 17:22:29.011281
+
+Script ran at 2025-06-19 17:24:33.921483
+
+Script ran at 2025-06-19 17:30:18.753958
+
+Script ran at 2025-06-19 17:32:27.451687
+
+Script ran at 2025-06-19 17:37:14.670794
+
+Script ran at 2025-06-19 17:39:19.483016
+
+Script ran at 2025-06-19 17:45:10.840850
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 19:22:27.980254
+
+Script ran at 2025-06-19 19:24:13.356331
+
+Script ran at 2025-06-19 19:30:11.079251
+
+Script ran at 2025-06-19 19:32:23.506545
+
+Script ran at 2025-06-19 19:37:26.490955
+
+Error: Failed to fetch prices from API
+Script ran at 2025-06-19 19:45:14.411512
+
+Script ran at 2025-06-19 19:47:37.758570
+
+Script ran at 2025-06-19 19:52:12.156632
+
+Script ran at 2025-06-19 19:54:41.839493
+
+Script ran at 2025-06-19 20:00:09.817094
+
+Script ran at 2025-06-19 20:47:24.117066
+
+Script ran at 2025-06-19 20:52:47.116869
+
+Script ran at 2025-06-19 20:54:27.946543
+
+Script ran at 2025-06-19 21:00:10.872744
+
+Script ran at 2025-06-19 21:01:59.428575
+
+Script ran at 2025-06-19 21:02:16.526488
+
+Script ran at 2025-06-19 21:07:39.265550
+
+^CScript ran at 2025-06-19 21:15:15.398299
+
+Script ran at 2025-06-19 21:16:57.373310
+
+Script ran at 2025-06-19 21:17:16.845685
+
+Script ran at 2025-06-19 21:22:13.507339
+
+Script ran at 2025-06-19 21:24:13.024694
+
+Script ran at 2025-06-19 21:30:08.650454
+
+Script ran at 2025-06-19 21:32:07.647799
+
+Script ran at 2025-06-19 21:32:16.070275
+
+Script ran at 2025-06-19 22:17:01.079385
+
+Script ran at 2025-06-19 22:17:24.866457
+
+Script ran at 2025-06-19 22:22:14.735764
+
+Script ran at 2025-06-19 22:24:13.975388
+
+Script ran at 2025-06-19 22:30:12.910897
+
+Script ran at 2025-06-19 22:32:03.279159
+
+Script ran at 2025-06-19 22:32:17.524720
+
+Script ran at 2025-06-19 22:37:15.635931
+
+Script ran at 2025-06-19 22:39:19.090685
+
+Script ran at 2025-06-19 22:45:15.728075
+
+Script ran at 2025-06-19 22:47:00.713337
+
+Script ran at 2025-06-19 22:47:20.142587
+
+Script ran at 2025-06-19 22:52:15.730695
+
+Script ran at 2025-06-19 22:54:18.008112
+
+Script ran at 2025-06-19 23:00:14.334639
+
+Script ran at 2025-06-19 23:01:56.331285
+
+Script ran at 2025-06-19 23:02:20.373712
+
+Script ran at 2025-06-19 23:07:12.133881
+
+Script ran at 2025-06-19 23:09:16.221185
+
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Error: Failed to fetch prices from API
+Script ran at 2025-06-20 20:37:48.144469
+
+Script ran at 2025-06-20 20:53:07.973487
+
+Script ran at 2025-06-20 21:07:48.868536
+
+Error: Failed to fetch prices from API
+Script ran at 2025-06-21 14:52:50.194048
+
+Script ran at 2025-06-21 15:15:04.044986
+
+Script ran at 2025-06-21 15:22:48.815300
+
+Script ran at 2025-06-21 15:44:00.579558
+
+Script ran at 2025-06-21 15:53:11.448793
+
+Script ran at 2025-06-21 16:07:50.363784
+
+Script ran at 2025-06-21 16:41:43.437648
+
+Script ran at 2025-06-21 17:32:57.766102
+
+Script ran at 2025-06-21 17:37:52.313911
+
+Script ran at 2025-06-21 17:53:55.255656
+
+Script ran at 2025-06-21 18:07:58.967505
+
+Script ran at 2025-06-21 18:31:39.048028
+
+Script ran at 2025-06-21 18:40:50.878738
+
+Script ran at 2025-06-21 22:00:36.778240
+
+Script ran at 2025-06-21 22:15:33.058638
+
+Script ran at 2025-06-21 22:30:34.761210
+
+Script ran at 2025-06-21 22:45:34.856539
+

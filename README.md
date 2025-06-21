@@ -23,3 +23,21 @@ To track, analyze and visualize cryptocurrency trends (e.g, price, volume, marke
 # Automation Scripts
 
 <table><tbody><tr><td><strong>Script</strong></td><td><strong>Interval</strong></td><td><strong>Task</strong></td></tr><tr><td>run_etl.bat</td><td>Every 15 mins</td><td>fetches and stores raw crypto data</td></tr><tr><td>daily_aggregates.bat</td><td>Once daily (23:59)</td><td>calculates and inserts daily crypto aggregates</td></tr></tbody></table>
+
+# SQL Tables and Views
+
+
+| Table            | Description                                           |
+| ------------------ | ------------------------------------------------------- |
+| Coins            | stores metadata for the coins                         |
+| Raw Prices       | stores the live prices and values of the coins        |
+| Daily aggregates | generate and stores aggregate of the coins once a day |
+
+
+| views             | description                                          |
+| ------------------- | ------------------------------------------------------ |
+| vw_latest_prices  | latest [rices for each coin in the database          |
+| vw_market_summary | the aggregates of the market (i.e. total market cap) |
+| vw_price_history  | shows time-series history for selected coins         |
+| vw_top_movers_1h  | coins with the biggest 1 hour change                 |
+| vw_top_movers_24h | coins with the biggest 24 hr change                  |
