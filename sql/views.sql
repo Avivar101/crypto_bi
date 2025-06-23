@@ -1,22 +1,29 @@
 
 -- lastest prices view
 CREATE OR REPLACE VIEW vw_latest_prices AS
-SELECT DISTINCT ON (rp.coin_id)
-    rp.coin_id,
-    c.symbol,
-    c.name,
-    rp.price_usd,
-    rp.price_ngn,
-    rp.market_cap_usd,
-    rp.market_cap_ngn,
-    rp.volume_24h_usd,
-    rp.volume_24h_ngn,
-    rp.total_supply,
-    rp.circulating_supply,
-    rp.timestamp_utc
-FROM raw_prices rp
-JOIN coin_metadata c ON rp.coin_id = c.id
-ORDER BY rp.coin_id, rp.timestamp_utc DESC;
+WITH latest_per_coin AS (
+    SELECT DISTINCT ON (coin_id)
+        rp.coin_id,
+	    c.symbol,
+	    c.name,
+	    rp.price_usd,
+	    rp.price_ngn,
+	    rp.market_cap_usd,
+	    rp.market_cap_ngn,
+	    rp.volume_24h_usd,
+	    rp.volume_24h_ngn,
+	    rp.total_supply,
+	    rp.circulating_supply,
+	    rp.timestamp_utc
+    FROM raw_prices rp
+	JOIN coin_metadata c ON rp.coin_id = c.id
+    ORDER BY rp.coin_id, rp.timestamp_utc DESC
+)
+
+SELECT
+    lp.*,
+    ROW_NUMBER() OVER (ORDER BY market_cap_usd DESC) AS coin_rank
+FROM latest_per_coin lp
 
 -- price history
 CREATE or REPLACE VIEW vw_price_history AS

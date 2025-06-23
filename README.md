@@ -1,15 +1,3 @@
-## Project Overview
-
-## Stack Used
-
-## Setup Instructions
-
-## Folder Explanation
-
-## Sample Quries/Visuals
-
----
-
 # Project Title: Crypto Insights BI
 
 # Objective
@@ -18,7 +6,7 @@ To track, analyze and visualize cryptocurrency trends (e.g, price, volume, marke
 
 # Tech Stack
 
-<table><tbody><tr><td><strong>Layer</strong></td><td><strong>Tech/Tool</strong></td></tr><tr><td>Data Source</td><td>Coingecko API</td></tr><tr><td>ETL Scripts</td><td>Python</td></tr><tr><td>Storage</td><td>PostgreSQL</td></tr></tr><tr><td>Reporting</td><td>Power BI</td></tr><tr><td>Automation</td><td>Task Scheduler</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Layer</strong></td><td><strong>Tech/Tool</strong></td></tr><tr><td>Data Source</td><td>Coingecko API</td></tr><tr><td>ETL Scripts</td><td>Python</td></tr><tr><td>Storage</td><td>PostgreSQL</td></tr><tr><td>Reporting</td><td>Power BI</td></tr><tr><td>Automation</td><td>Task Scheduler</td></tr></tbody></table>
 
 # Automation Scripts
 
@@ -26,18 +14,72 @@ To track, analyze and visualize cryptocurrency trends (e.g, price, volume, marke
 
 # SQL Tables and Views
 
-
-| Table            | Description                                           |
-| ------------------ | ------------------------------------------------------- |
-| Coins            | stores metadata for the coins                         |
-| Raw Prices       | stores the live prices and values of the coins        |
+## Tables
+| Table | Description |
+| --- | --- |
+| Coins | stores metadata for the coins |
+| Raw Prices | stores the live prices and values of the coins |
 | Daily aggregates | generate and stores aggregate of the coins once a day |
 
+## Views
+| views | description |
+| --- | --- |
+| vw\_latest\_prices | latest prices for each coin in the database |
+| vw\_market\_summary | the aggregates of the market (i.e. total market cap) |
+| vw\_price\_history | shows time-series history for selected coins |
+| vw\_top\_movers\_1h | coins with the biggest 1 hour change |
+| vw\_top\_movers\_24h | coins with the biggest 24 hr change |
 
-| views             | description                                          |
-| ------------------- | ------------------------------------------------------ |
-| vw_latest_prices  | latest [rices for each coin in the database          |
-| vw_market_summary | the aggregates of the market (i.e. total market cap) |
-| vw_price_history  | shows time-series history for selected coins         |
-| vw_top_movers_1h  | coins with the biggest 1 hour change                 |
-| vw_top_movers_24h | coins with the biggest 24 hr change                  |
+# Power BI Pages and KPI description
+## Page 1: Market Overview
+A Snapshot of the market
+### Sections:
++ **KPIs**:
+    + Total Market Cap (NGN/USD)
+    + 24H Total Volume (NGN/USD)
+    + Number of Coins Tracked
+    + Last Data Refresh TimeStamp
++ **Charts**:
+    + Market Cap line Trend
+    + 24H Trading volume line trend
+    + Top gainers (24H)
+    + Table: Coins by rank
++ **filters**:
+    + Curreny (NGN/USD)
+
+views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
+
+## Page 2: Price Movement and Performance
+Track of daily and hourly movements for analyst and traders
+### Sections:
++ **KPIs**:
+    + Total Market Cap (NGN/USD)
+    + 24H Total Volume (NGN/USD)
+    + Number of Coins Tracked
+    + Last Data Refresh TimeStamp
++ **Charts**:
+    + Market Cap line Trend
+    + 24H Trading volume line trend
+    + Top gainers (24H)
+    + Table: Coins by rank
++ **filters**:
+    + Curreny (NGN/USD)
+
+views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
+## Page 3: Coin Detail and History
+Drill down into singles coin's price, volume and supply trends
+### Sections:
++ **KPIs**:
+    + Total Market Cap (NGN/USD)
+    + 24H Total Volume (NGN/USD)
+    + Number of Coins Tracked
+    + Last Data Refresh TimeStamp
++ **Charts**:
+    + Market Cap line Trend
+    + 24H Trading volume line trend
+    + Top gainers (24H)
+    + Table: Coins by rank
++ **filters**:
+    + Curreny (NGN/USD)
+
+views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
