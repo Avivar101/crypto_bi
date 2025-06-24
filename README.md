@@ -53,15 +53,14 @@ views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
 Track of daily and hourly movements for analyst and traders
 ### Sections:
 + **KPIs**:
-    + Total Market Cap (NGN/USD)
-    + 24H Total Volume (NGN/USD)
-    + Number of Coins Tracked
-    + Last Data Refresh TimeStamp
+    + Top Gainers
+    + Top losers
+    + Top week performer
+    + 24hr trading volume
 + **Charts**:
-    + Market Cap line Trend
-    + 24H Trading volume line trend
-    + Top gainers (24H)
-    + Table: Coins by rank
+    + Top traded coins by volume
+    + fear/greed gauge
+    + Top volume traded pairs
 + **filters**:
     + Curreny (NGN/USD)
 
@@ -70,15 +69,12 @@ views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
 Drill down into singles coin's price, volume and supply trends
 ### Sections:
 + **KPIs**:
-    + Total Market Cap (NGN/USD)
-    + 24H Total Volume (NGN/USD)
-    + Number of Coins Tracked
-    + Last Data Refresh TimeStamp
+    + coin data
+    + coin info
 + **Charts**:
-    + Market Cap line Trend
-    + 24H Trading volume line trend
-    + Top gainers (24H)
-    + Table: Coins by rank
+    + 7 day volume bar
+    + coin selector table
+    + Top trading pair
 + **filters**:
     + Curreny (NGN/USD)
 

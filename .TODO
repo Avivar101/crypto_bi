@@ -1,4 +1,16 @@
 Establish Page theme and kpis
-[]  page theme
-[] kpis
-[] analysis
+[x] page theme
+[x] kpis
+[x] analysis
+
+Dashboard design
+[] chart designs
+[] background template
+[] color theme
+
+Others
+[] get sentiment index
+    [] api source
+    [] etl
+    [] chart design
+[] get volume pairs
