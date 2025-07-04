@@ -10,15 +10,23 @@ CREATE TABLE coin_metadata (
 CREATE TABLE raw_prices (
     id SERIAL PRIMARY KEY,
     coin_id TEXT REFERENCES coin_metadata(id),
+    
     price_usd NUMERIC,
     price_ngn NUMERIC,
     market_cap_usd NUMERIC,
     market_cap_ngn NUMERIC,
     volume_24h_usd NUMERIC,
     volume_24h_ngn NUMERIC,
+    
     total_supply NUMERIC,
     circulating_supply NUMERIC,
     timestamp_utc TIMESTAMP,
+    
+    price_change_pct_24h NUMERIC, 
+    market_cap_change_pct_24h NUMERIC,
+    ath_usd NUMERIC,
+    ath_ngn NUMERIC,
+
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -35,6 +43,15 @@ CREATE TABLE daily_aggregates (
     min_price_ngn NUMERIC,
     total_volume_ngn NUMERIC,
     PRIMARY KEY (coin_id, date)
+);
+
+-- sparkline prices
+CREATE TABLE sparkline_prices (
+    coin_id TEXT REFERENCES coin_metadata(id),
+    timestamp_utc TIMESTAMP,
+    price_usd NUMERIC,
+    price_ngn NUMERIC,
+    PRIMARY KEY (coin_id, timestamp_utc)
 );
 
 -- Indexes for faster query performance

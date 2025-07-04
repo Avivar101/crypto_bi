@@ -15,6 +15,7 @@ To track, analyze and visualize cryptocurrency trends (e.g, price, volume, marke
 # SQL Tables and Views
 
 ## Tables
+
 | Table | Description |
 | --- | --- |
 | Coins | stores metadata for the coins |
@@ -22,6 +23,7 @@ To track, analyze and visualize cryptocurrency trends (e.g, price, volume, marke
 | Daily aggregates | generate and stores aggregate of the coins once a day |
 
 ## Views
+
 | views | description |
 | --- | --- |
 | vw\_latest\_prices | latest prices for each coin in the database |
@@ -31,51 +33,63 @@ To track, analyze and visualize cryptocurrency trends (e.g, price, volume, marke
 | vw\_top\_movers\_24h | coins with the biggest 24 hr change |
 
 # Power BI Pages and KPI description
+
 ## Page 1: Market Overview
+
 A Snapshot of the market
+
 ### Sections:
-+ **KPIs**:
-    + Total Market Cap (NGN/USD)
-    + 24H Total Volume (NGN/USD)
-    + Number of Coins Tracked
-    + Last Data Refresh TimeStamp
-+ **Charts**:
-    + Market Cap line Trend
-    + 24H Trading volume line trend
-    + Top gainers (24H)
-    + Table: Coins by rank
-+ **filters**:
-    + Curreny (NGN/USD)
+
+*   **KPIs**:
+    *   Total Market Cap (NGN/USD)
+    *   24H Total Volume (NGN/USD)
+    *   Number of Coins Tracked
+    *   Last Data Refresh TimeStamp
+*   **Charts**:
+    *   Market Cap line Trend
+    *   24H Trading volume line trend
+    *   Top gainers (24H)
+    *   Table: Coins by rank
+    *   Dominance Chart (BTC/ETH/others)
+*   **filters**:
+    *   Curreny (NGN/USD)
 
 views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
 
 ## Page 2: Price Movement and Performance
+
 Track of daily and hourly movements for analyst and traders
+
 ### Sections:
-+ **KPIs**:
-    + Top Gainers
-    + Top losers
-    + Top week performer
-    + 24hr trading volume
-+ **Charts**:
-    + Top traded coins by volume
-    + fear/greed gauge
-    + Top volume traded pairs
-+ **filters**:
-    + Curreny (NGN/USD)
+
+*   **KPIs**:
+    *   Top Gainers
+    *   Top losers
+    *   Top week performer
+    *   24hr trading volume
+*   **Charts**:
+    *   Top traded coins by volume
+    *   fear/greed gauge
+    *   Top volume traded pairs
+*   **filters**:
+    *   Curreny (NGN/USD)
 
 views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
+
 ## Page 3: Coin Detail and History
+
 Drill down into singles coin's price, volume and supply trends
+
 ### Sections:
-+ **KPIs**:
-    + coin data
-    + coin info
-+ **Charts**:
-    + 7 day volume bar
-    + coin selector table
-    + Top trading pair
-+ **filters**:
-    + Curreny (NGN/USD)
+
+*   **KPIs**:
+    *   coin data
+    *   coin info
+*   **Charts**:
+    *   7 day volume bar
+    *   coin selector table
+    *   Top trading pair
+*   **filters**:
+    *   Curreny (NGN/USD)
 
 views used: `vw_latest_prices`, `vw_market_summary`, `coin_metadata`
