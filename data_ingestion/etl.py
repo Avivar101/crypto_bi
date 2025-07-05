@@ -20,7 +20,31 @@ def fetch_prices(currency):
         return response.json()
     except requests.exceptions.RequestException as e:
         print("Error: Failed to fetch prices from API")
-        sys.exit(1) 
+        sys.exit(1)
+
+# fetch market summary data
+def fetch_market_sum():
+    url = "https://api.coingecko.com/api/v3/global"
+    headers = {"accept": "application/json"}
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print("Error: Failed to fetch data from API")
+        sys.exit(1)
+
+# transform market summary data
+def transform_mc_sum(data):
+    try:
+        pct_change_usd = data['data']['market_cap_change_percentage_24h_usd']
+        return {
+            "market_cap_change_pct_24h": round(pct_change_usd, 2),
+            "timestamp_utc": datetime.fromtimestamp(data['data']['updated_at'])  # UNIX timestamp
+        }
+    except (KeyError, TypeError) as e:
+        print("Error: Failed to parse market cap change data")
+        return None
 
 # transform data
 def transform_data(raw_data_usd, raw_data_ngn):
@@ -58,7 +82,7 @@ def transform_data(raw_data_usd, raw_data_ngn):
     return merged_data
 
 # load into postgres
-def load_to_postgres(data):
+def load_to_postgres(data, market_data):
     conn = psycopg2.connect(
         dbname="crypto_analytics",
         user="postgres",
@@ -120,6 +144,34 @@ def load_to_postgres(data):
                 ON CONFLICT (coin_id, timestamp_utc) DO NOTHING
             """, (coin_id, t, usd_price, ngn_price))
 
+    # insert into coin_sparkline
+    sparkline_rows = []
+    start_time = datetime.now() - timedelta(hours=167)  # assuming 168 points
+
+    for coin in data:
+        coin_id = coin['id']
+        sparkline_usd = coin.get('sparkline_usd', [])
+
+        for i, price in enumerate(sparkline_usd):
+            timestamp = start_time + timedelta(hours=i)
+            sparkline_rows.append((coin_id, 'USD', timestamp, price))
+    
+    cur.execute("DELETE FROM coin_sparklines")
+
+    execute_batch(cur, """
+        INSERT INTO coin_sparklines (coin_id, currency, timestamp_utc, price)
+        VALUES (%s, %s, %s, %s)
+    """, sparkline_rows)
+
+    # insert market summary data
+    cur.execute("""
+            INSERT INTO market_summary (timestamp_utc, market_cap_change_pct_24h)
+            VALUES (%s, %s)
+            ON CONFLICT (timestamp_utc) DO UPDATE
+            SET market_cap_change_pct_24h = EXCLUDED.market_cap_change_pct_24h;
+        """, (market_data['timestamp_utc'], market_data['market_cap_change_pct_24h']))
+
+
 
     conn.commit()
     cur.close()
@@ -128,7 +180,9 @@ def load_to_postgres(data):
 if __name__ == "__main__":
     usd_raw = fetch_prices('usd')
     ngn_raw = fetch_prices('ngn')
+    market_sum = fetch_market_sum()
     transformed = transform_data(usd_raw, ngn_raw)
-    load_to_postgres(transformed)
+    market_transformed = transform_mc_sum(market_sum)
+    load_to_postgres(transformed, market_transformed)
 
     print("Script ran at " + str(datetime.now()) + "\n")

@@ -54,6 +54,11 @@ CREATE TABLE sparkline_prices (
     PRIMARY KEY (coin_id, timestamp_utc)
 );
 
+CREATE TABLE market_summary (
+    timestamp_utc TIMESTAMP PRIMARY KEY,
+    market_cap_change_pct_24h NUMERIC
+);
+
 -- Indexes for faster query performance
 CREATE INDEX idx_raw_prices_coin_time ON raw_prices (coin_id, timestamp_utc);
 CREATE INDEX idx_daily_aggregates_date ON daily_aggregates (date);

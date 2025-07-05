@@ -14,7 +14,9 @@ WITH latest_per_coin AS (
 	    rp.volume_24h_ngn,
 	    rp.total_supply,
 	    rp.circulating_supply,
-	    rp.timestamp_utc
+	    rp.timestamp_utc,
+        rp.price_change_pct_24h,
+        rp.market_cap_change_pct_24h
     FROM raw_prices rp
 	JOIN coin_metadata c ON rp.coin_id = c.id
     ORDER BY rp.coin_id, rp.timestamp_utc DESC
@@ -44,7 +46,7 @@ ORDER BY coin_id, date;
 
 -- last 24h top movers
 CREATE OR REPLACE VIEW vw_top_movers_24h AS
-SELECT
+SELECT DISTINCT ON (rp.coin_id)
     rp.coin_id,
     c.symbol,
     c.name,
@@ -56,7 +58,7 @@ FROM raw_prices rp
 JOIN coin_metadata c ON rp.coin_id = c.id
 WHERE rp.price_change_pct_24h IS NOT NULL 
 	AND rp.price_change_pct_24h > 0 
-ORDER BY rp.price_change_pct_24h DESC;
+ORDER BY rp.coin_id, rp.timestamp_utc DESC, rp.price_change_pct_24h DESC;
 
 -- current total amrket summary
 CREATE OR REPLACE VIEW  vw_market_summary AS

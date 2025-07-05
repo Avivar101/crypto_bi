@@ -1,0 +1,117 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "name": "dataset" },
+  "facet": {
+    "row": {
+      "field": "name",
+      "type": "nominal"
+    }
+  },
+  "spec": {
+    "width": 280,
+    "height": 60,
+    "layer": [
+      {
+        "mark": {
+          "type": "image",
+          "width": 40,
+          "height": 40
+        },
+        "encoding": {
+          "url": {"field": "image_url", "type": "nominal"},
+          "x": {"value": 25},
+          "y": {"value": 25}
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "fontSize": 13
+        },
+        "encoding": {
+          "text": { "field": "TruncatedCoinName", "type": "nominal" },
+          "x": { "value": 60 },
+          "y": { "value": 20 }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "fontSize": 11,
+          "color": "#888"
+        },
+        "encoding": {
+          "text": { "field": "coin_symbol", "type": "nominal" },
+          "x": { "value": 60 },
+          "y": { "value": 38 }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "fontSize": 13
+        },
+        "encoding": {
+          "text": {
+            "field": "formattedDynamicPrice",
+            "type": "quantitative",
+            "format": "$,.2f"
+          },
+          "x": { "value": 270 },
+          "y": { "value": 20 }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "fontSize": 11
+        },
+        "encoding": {
+          "text": {
+            "field": "price_change_pct_24h",
+            "type": "quantitative",
+            "format": "+.2f"
+          },
+          "x": { "value": 270 },
+          "y": { "value": 38 },
+          "color": {
+            "condition": {
+              "test": "datum.price_change_percent >= 0",
+              "value": "#2ecc71"
+            },
+            "value": "#e74c3c"
+          }
+        }
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": "lightgray" },
+    "facet": {
+      "spacing": 8
+    }
+  }
+}
+
+------
+Config
+{
+  "facet": {
+    "row": {
+      "title": null
+    }
+  },
+  "header": {
+    "labelOpacity": 0,
+    "labelFontSize": 0,
+    "label": false,
+    "title": null
+  },
+  "view": {
+    "stroke": "lightgray"
+  }
+}
