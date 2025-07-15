@@ -1,19 +1,20 @@
 crypto-insights-bi/
-├── docs/
-│   └── project_plan.md
+├── automation scripts/
+|   ├── daily_aggregates.bat
+|   └── etl.bat
 ├── data_ingestion/
-│   ├── fetch_crypto_data.py
-│   └── scheduler_setup.md
+│   ├── daily_aggregates.py
+│   └── etl.py
+├── docs/
+|   ├── folder_structure.md
+│   └── project_plan.md
+├── logs/
+|   ├── aggregate_logs.txt
+|   └── etl_log.txt
 ├── sql/
 │   ├── schema.sql
-│   ├── seed_data.sql
+│   ├── logic.sql
 │   └── views.sql
-├── dbt/
-│   ├── dbt_project.yml
-│   └── models/
-│       ├── staging/
-│       ├── intermediate/
-│       └── marts/
 ├── powerbi/
 │   └── dashboard.pbit
 ├── requirements.txt

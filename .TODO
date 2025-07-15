@@ -4,13 +4,13 @@ Establish Page theme and kpis
 [x] analysis
 
 Dashboard design
-[] chart designs
+[x] chart designs
 [x] background template
 [x] color theme
 
 Others
-[] get sentiment index
+[x] get sentiment index
     [] api source
     [] etl
     [] chart design
-[] get volume pairs
+[x] get volume pairs

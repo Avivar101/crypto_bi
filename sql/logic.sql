@@ -1,3 +1,4 @@
+-- daily aggrgates table
 INSERT INTO daily_aggregates (
     coin_id,
     date,
