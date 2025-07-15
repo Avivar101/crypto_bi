@@ -1,0 +1,129 @@
+[
+    {
+        "coin_id": "bitcoin", 
+        "symbol": "btc", 
+        "name": "Bitcoin", 
+        "volume_24h_usd": 161332112, 
+        "volume_24h_ngn": 246912537730.05, 
+        "top_pair": {
+            "base": "ETH", 
+            "target": "BTC", 
+            "market": "Binance", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274", 
+            "volume_usd": 161332112, 
+            "target_coin_id": "bitcoin"}
+    },
+
+    {
+        "coin_id": "bitcoin", 
+        "symbol": "btc", 
+        "name": "Bitcoin", 
+        "volume_24h_usd": 5598295740, 
+        "volume_24h_ngn": 8567974416195.29, 
+        "top_pair": {
+            "base": "BTC", 
+            "target": "USDT", 
+            "market": "CoinW", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/1172/small/coinw_new_logo.png?1713879109", 
+            "volume_usd": 5598295740, 
+            "target_coin_id": "tether"}
+    }, 
+    {
+        "coin_id": "bitcoin", 
+        "symbol": "btc", 
+        "name": "Bitcoin", 
+        "volume_24h_usd": 4484810153, 
+        "volume_24h_ngn": 6863827928532.56, 
+        "top_pair": {
+            "base": "BTC", 
+            "target": "USDT", 
+            "market": "Binance", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274", 
+            "volume_usd": 4484810153, 
+            "target_coin_id": "tether"}
+    }, 
+    {
+        "coin_id": "ethereum", 
+        "symbol": "eth", 
+        "name": "Ethereum", 
+        "volume_24h_usd": 3444530568, 
+        "volume_24h_ngn": 5271720386537.96, 
+        "top_pair": {
+            "base": "ETH", 
+            "target": "USDT", 
+            "market": "Binance", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274", 
+            "volume_usd": 3444530568, 
+            "target_coin_id": "tether"}
+    }, 
+    {
+        "coin_id": "ethereum", 
+        "symbol": "eth", 
+        "name": "Ethereum", 
+        "volume_24h_usd": 2554647712, 
+        "volume_24h_ngn": 3909789202884.77, 
+        "top_pair": {
+            "base": "ETH", 
+            "target": "USDT", 
+            "market": "Tapbit", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/1374/small/Tapbit-Logo.png?1706865388", 
+            "volume_usd": 2554647712, 
+            "target_coin_id": "tether"}
+    }, 
+    {
+        "coin_id": "ethereum", 
+        "symbol": "eth", 
+        "name": "Ethereum", 
+        "volume_24h_usd": 2433510688, 
+        "volume_24h_ngn": 3724393687769.31, 
+        "top_pair": {
+            "base": "ETH", 
+            "target": "FDUSD", 
+            "market": "Binance", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274", 
+            "volume_usd": 2433510688, 
+            "target_coin_id": "first-digital-usd"}
+    }, 
+    {
+        "coin_id": "ripple", 
+        "symbol": "xrp", 
+        "name": "XRP", 
+        "volume_24h_usd": 917887016, 
+        "volume_24h_ngn": 1404790463971.78, 
+        "top_pair": {
+            "base": "XRP", 
+            "target": "USDT", 
+            "market": "Binance", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274", 
+            "volume_usd": 917887016, 
+            "target_coin_id": "tether"}
+    }, 
+    {
+        "coin_id": "ripple", 
+        "symbol": "xrp", 
+        "name": "XRP", 
+        "volume_24h_usd": 797101968, 
+        "volume_24h_ngn": 1219933634467.64, 
+        "top_pair": {
+            "base": "XRP", 
+            "target": "KRW", 
+            "market": "Upbit", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/117/small/upbit.png?1706864294", 
+            "volume_usd": 797101968, 
+            "target_coin_id": "None"}
+    }, 
+    {
+        "coin_id": "ripple", 
+        "symbol": "xrp", 
+        "name": "XRP", 
+        "volume_24h_usd": 486604104, 
+        "volume_24h_ngn": 744728700932.76, 
+        "top_pair": {
+            "base": "XRP", 
+            "target": "FDUSD", 
+            "market": "Binance", 
+            "market_logo": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274", 
+            "volume_usd": 486604104, 
+            "target_coin_id": "first-digital-usd"}
+    }
+]

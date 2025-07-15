@@ -27,7 +27,8 @@ CREATE TABLE raw_prices (
     ath_usd NUMERIC,
     ath_ngn NUMERIC,
 
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    price_date DATE
 );
 
 -- Aggregate daily metrics
@@ -57,6 +58,32 @@ CREATE TABLE sparkline_prices (
 CREATE TABLE market_summary (
     timestamp_utc TIMESTAMP PRIMARY KEY,
     market_cap_change_pct_24h NUMERIC
+);
+
+-- fear/greed
+CREATE TABLE market_sentiment (
+	id SERIAL PRIMARY KEY,
+	value INT,
+	value_classification TEXT,
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- top coin pairs
+CREATE TABLE top_coin_pairs (
+    id SERIAL PRIMARY KEY,
+    coin_id TEXT REFERENCES coin_metadata(id),
+    symbol TEXT,
+    name TEXT,
+    volume_24h_usd NUMERIC,
+    volume_24h_ngn NUMERIC,
+    base TEXT,
+    target TEXT,
+    market TEXT,
+	market_logo_url TEXT,
+    target_coin_id TEXT,
+    timestamp_utc TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    price_date DATE GENERATED ALWAYS AS (timestamp_utc::DATE) STORED,
+    UNIQUE (coin_id, price_date)
 );
 
 -- Indexes for faster query performance
